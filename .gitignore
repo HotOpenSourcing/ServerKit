@@ -59,8 +59,6 @@ __pycache__/
 *.wixpdb
 
 # Environment / Secrets
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -91,7 +89,6 @@ docker-compose.override.yml
 ehthumbs.db
 Thumbs.db
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -228,3 +225,5 @@ scripts/keys/
 
 # Local/CI browser regression screenshots
 frontend/test-results/
+config.bat
+node_modules
